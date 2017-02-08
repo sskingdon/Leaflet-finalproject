@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'/>
+        <title>
+            Leaflet
+        </title>
+        <style>
+            html { height: 100% }
+            body { height: 100%; margin: 0; padding: 0;}
+            #mapID{ height: 100% }
+        </style>
+         <!--[if lte IE 8]>
+            <script src="js/ddr-ecma5-min.js"></script>
+        <![endif]-->     
+       <link rel="stylesheet" href="css/gh-fork-ribbon.css" />
+    <!--[if IE]>
+        <link rel="stylesheet" href="css/gh-fork-ribbon.ie.css" />
+    <![endif]-->
+        <link rel="stylesheet" href="css/colorbrewer.css" />
+        <style>
+        	.town { 
+	stroke-width : 0;
+	fill: #000;
+	fill-opacity: .6;
+	stroke: #fff; 
+}
+
+.town:hover {
+  fill: rgb(109, 28, 28);
+  fill-opacity: .7;
+  cursor:pointer;
+}
+        </style>
+    </head>
+    <body>
+        <div class="github-fork-ribbon-wrapper left">
+            <div class="github-fork-ribbon"><!--from http://simonwhitaker.github.com/github-fork-ribbon-css/ -->
+                <a href="https://github.com/sskingdon">士軒的github</a>
+            </div>
+        </div>
+        <div id="mapID"></div>
+        <script type="text/javascript" src="js/leaflet.js"></script>
+        <script type="text/javascript" src="js/leaflet.css.js"></script>
+        <script type="text/javascript" src="js/leaflet.markercluster.js"></script>
+        <script type="text/javascript" src="js/leaflet.providers.js"></script>
+        <script type="text/javascript" src="js/leaflet.hash.js"></script>
+        <script type="text/javascript" src="js/d3.v3.js"></script>
+        <script type="text/javascript" src="js/topojson.v0.js"></script>
+        <script type="text/javascript" src="js/leaflet.d3.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-31218444-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </body>
+</html>
